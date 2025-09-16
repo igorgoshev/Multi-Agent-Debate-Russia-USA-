@@ -1,13 +1,16 @@
-./multi_agent/*.json
-./multi_agent/__pycache__
-./multi_agent/.idea
+# Ignore Python cache
+__pycache__/
+*.pyc
 
-./usa_agent/.venv
-./usa_agent/vvv
-./usa_agent/*.json
-./usa_agent/.idea
+# Ignore IDE/project files
+.idea/
+.vscode/
 
-./russia_agent/.venv
-./russia_agent/vvv
-./russia_agent/*.json
-./russia_agent/.idea
+# Ignore virtual environments
+.venv/
+
+# Ignore JSON data files
+*.json
+
+# Ignore specific folders
+vvv/

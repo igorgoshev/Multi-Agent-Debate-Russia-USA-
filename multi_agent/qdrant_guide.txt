@@ -1,0 +1,5 @@
+# Agent USA database (port 6333)
+docker run -p 6333:6333 qdrant/qdrant
+
+# Agent Russia database (port 6334) 
+docker run -p 6334:6333 qdrant/qdrant
