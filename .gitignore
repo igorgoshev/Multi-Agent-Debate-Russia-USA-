@@ -1,0 +1,13 @@
+./multi_agent/*.json
+./multi_agent/__pycache__
+./multi_agent/.idea
+
+./usa_agent/.venv
+./usa_agent/vvv
+./usa_agent/*.json
+./usa_agent/.idea
+
+./russia_agent/.venv
+./russia_agent/vvv
+./russia_agent/*.json
+./russia_agent/.idea
